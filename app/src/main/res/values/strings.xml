@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">VitaSport</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">yvB0FMKymbyBn7RzszfvC9n7xLsgMOlnGepZLQcf</string>
+    <string name="back4app_client_key">wRxS46WZhFow6GIppMkSZzquL67hnm6CS8p7KsCF</string>
+
+
+    <string name="no_matches_password">Şifreler Eşleşmiyor</string>
+    <string name="empty_fields">Lütfen, Boş Alanları Doldurunuz</string>
+
+    <string name="forget_password">Şifremi Unuttum</string>
+    <string name="login">Giriş Yap</string>
+    <string name="email">E-mail</string>
+    <string name="password">Şifre</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="name_surname">Ad Soyad</string>
+    <string name="no_account_register">Hesabın mı yok ? Kayıt Ol</string>
+    <string name="password_repeat">Şifre Tekrar</string>
+    <string name="login_with_google">Google ile Giriş Yap</string>
+    <string name="login_with_facebook">Facebook ile Giriş Yap</string>
+
+    <string name="success_reset_password">Şifre sıfırlamak için size bir mail gönderdik</string>
+    <string name="reset_password">Şifremi Sıfırla</string>
+    <string name="error_user_register">Şu an işlemini yapamıyoruz</string>
+    <string name="title_activity_user_detail">UserDetail</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- folding cell-->
+    <string name="order_id_mock" translatable="false"># 1234–5678</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">REQUESTS</string>
+    <string name="weight_mock" translatable="false">50 oz</string>
+    <string name="weight_badge" translatable="false">WEIGHT</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PLEDGE</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">REQUEST DEADLINE</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">REQUEST</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

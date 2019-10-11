@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".views.ui.Feadback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/unit_8_dp"
+        android:layout_gravity="center"
+        android:text="Suggestion"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_transparent_bg"
+        android:hint="Message"
+        android:textColorHint="@color/colorWhite"
+        android:layout_margin="@dimen/unit_8_dp"
+        android:textColor="@color/colorWhite"
+        android:lines="8"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/login_button_bg"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

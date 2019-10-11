@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.5"
+        android:background="@android:color/black" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edit_transparent_bg"
+            android:layout_marginTop="48dp"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textColorHint="@color/md_white_1000"
+            android:textColor="@color/colorWhite"
+            android:layout_marginRight="@dimen/unit_16_dp"
+            android:layout_marginLeft="@dimen/unit_16_dp"
+            android:layout_below="@id/login_logo_image"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_transparent_bg"
+            android:layout_marginRight="@dimen/unit_16_dp"
+            android:layout_marginLeft="@dimen/unit_16_dp"
+            android:layout_below="@id/editEmail"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:hint="@string/password"
+            android:padding="8dp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textSize="16sp"
+            android:textColorHint="@color/md_white_1000"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="@dimen/unit_16_dp"
+            android:layout_marginRight="@dimen/unit_16_dp"
+            android:layout_below="@id/editPassword"
+            android:textAllCaps="false"
+            android:fontFamily="@font/ubuntu_medium"
+            android:background="@drawable/login_button_bg"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

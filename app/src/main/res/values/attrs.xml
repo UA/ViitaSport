@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rll_normalSolidColor" format="color" />
+        <attr name="rll_leftTopRadius" format="dimension" />
+        <attr name="rll_rightTopRadius" format="dimension" />
+        <attr name="rll_leftBottomRadius" format="dimension" />
+        <attr name="rll_rightBottomRadius" format="dimension" />
+        <attr name="rll_strokeColor" format="color" />
+        <attr name="rll_strokeActiveColor" format="color"/>
+        <attr name="rll_strokeWidth" format="dimension"/>
+        <attr name="rll_pressedSolidColor" format="color"/>
+        <attr name="rll_isSelected" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="rrl_normalSolidColor" format="color" />
+        <attr name="rrl_leftTopRadius" format="dimension" />
+        <attr name="rrl_rightTopRadius" format="dimension" />
+        <attr name="rrl_leftBottomRadius" format="dimension" />
+        <attr name="rrl_rightBottomRadius" format="dimension" />
+        <attr name="rrl_pressedSolidColor" format="color"/>
+        <attr name="rrl_strokeColor" format="color" />
+        <attr name="rrl_strokeActiveColor" format="color"/>
+        <attr name="rrl_strokeWidth" format="dimension"/>
+        <attr name="rrl_isSelected" format="boolean"/>
+    </declare-styleable>
+</resources>

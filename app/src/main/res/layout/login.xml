@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.5"
+        android:background="@android:color/black" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/login_logo_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/ic_launcher_round"
+                android:layout_marginTop="90dp"
+                app:riv_corner_radius="30dip"
+                app:riv_border_width="2dip"
+                app:riv_border_color="#333333"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+
+            <EditText
+                android:id="@+id/login_editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/edit_transparent_bg"
+                android:layout_marginTop="48dp"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColorHint="@color/md_white_1000"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="@dimen/unit_16_dp"
+                android:layout_marginLeft="@dimen/unit_16_dp"
+                android:layout_below="@id/login_logo_image"/>
+
+            <EditText
+                android:id="@+id/login_editPassword"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_transparent_bg"
+                android:layout_marginRight="@dimen/unit_16_dp"
+                android:layout_marginLeft="@dimen/unit_16_dp"
+                android:layout_below="@id/login_editEmail"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                android:hint="@string/password"
+                android:padding="8dp"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textSize="16sp"
+                android:textColorHint="@color/md_white_1000"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <Button
+                android:id="@+id/login_btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/login_editPassword"
+                android:layout_marginLeft="@dimen/unit_16_dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="@dimen/unit_16_dp"
+                android:background="@drawable/login_button_bg"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/login_btnForgetPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/ubuntu_medium"
+                android:layout_below="@id/login_btnLogin"
+                android:background="@drawable/white_button_bg"
+                android:text="@string/forget_password"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_below="@id/login_btnForgetPassword"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/ubuntu_regular"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/login_btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content"
+                android:text="@string/no_account_register"/>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
